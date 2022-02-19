@@ -19,45 +19,63 @@ function Resume() {
                 </div>
                 <div className="resume-content">
                     <ResumeItem 
-                        year={'2015 - 2020'} 
-                        title={'Computer Science Teacher'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
-                    />
-                    <ResumeItem 
-                        year={'2015 - Present'} 
+                        year={'2021 - Present'} 
                         title={'Full Stack Developer'}
-                        subTitle={'Microsoft Studios'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        subTitle={'"Technical Skills"'}
+                        text={'Writes modern, performant, and maintainable code for an array of personal individual projects. Worked using a variety of computer languages, frameworks, CLIs, and content management platforms. Self taught "MERN" stack developer ( MongoDB / ExpressJS / ReactJS / NodeJS ). '} 
                     />
                     <ResumeItem 
-                        year={'2010 - 2017'} 
-                        title={'User Interface Designer'}
-                        subTitle={'Google Inc'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'2020 - Present'} 
+                        title={'Language Service Provider'}
+                        subTitle={'"Freelance Experience"'}
+                        text={'Provided professional transcription, translation, proofreading, and content editing services for both English and Japanese. Worked in small, diverse, and remote teams in order to meet desired work quotas. Regularly prepared class content according to TEFL/TESOL guidlines. Taught English and Japanese to both local and foreign students online.'} 
+                    />
+                    <ResumeItem 
+                        year={'2016 - 2021'} 
+                        title={'Retail / Service Industry Associate'}
+                        subTitle={'"Soft Skills"'}
+                        text={'Worked for both small and large retail establishments as a salesfloor associate, food service worker, and home tech installer. Maintained up to date product knowledge, managed assignments with teams of co-workers, kept inventory of stock, provided professional customer service.'} 
                     />
                 </div>
                 <div className="small-title u-small-title-margin">
-                    <SmallTitle icon={school} title={'Educational Qualifications'} />
+                    <SmallTitle icon={school} title={'Education'} />
                 </div>
                 <div className="resume-content ">
                     <ResumeItem 
-                        year={'201 - 2022'} 
-                        title={'Computer Science Degree'}
-                        subTitle={'Sussex University'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'2020 - 2024 (incomplete)'} 
+                        title={'Bachelors of Science in Computer Science'}
+                        subTitle={'Grand Canyon University'}
+                        text={'//  Communications studies   //'} 
                     />
                     <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'A - Levels'}
-                        subTitle={'Church Hill High'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'2020 - 2021'} 
+                        title={'TEFL/TESOL Certification'}
+                        subTitle={'Tefl.org'}
+                        text={'//  Teaching English as a Foreign Language | Teaching English to Speakers of Other Languages Certification //'} 
                     />
                     <ResumeItem 
-                        year={'2015 - 2017'} 
-                        title={'High School Graduation'}
-                        subTitle={'ABC School'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        year={'2018 - 2019'} 
+                        title={'SUNY Erie Community College'}
+                        subTitle={'Computer Systems and Repair'}
+                        text={'//  Digital Logic | Microprocessors and Microcontrollers | Computer System Software and Hardware //'} 
+                    />
+                           <ResumeItem 
+                              year={'2016 - 2018'} 
+                              title={'SUNY Buffalo State College'}
+                              subTitle={'Mechanical Engineering'}
+                              text={'//  Computer Based Information Processing | Fundamental Concepts in Object Oriented Programming | Computer Information Systems //'} 
+                          />
+                        <ResumeItem 
+                           year={'2016 - 2018'} 
+                           title={'Erie 1 BOCES Harkness Career and Technical Center'}
+                           subTitle={'Aviation Technology'}
+                           text={'//  Certificate of Completion | FAA Written Exam  // '} 
+                       />
+                    <ResumeItem 
+                        year={'2015 - 2016'} 
+                        title={'Cleveland Hill Highschool'}
+                        subTitle={'Highschool Diploma'}
+                        text={'//  Hour of Code | Tech Wars 2016 Winning Team |  Alice Programming Challenge  // '} 
                     />
                 </div>
             </InnerLayout>

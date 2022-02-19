@@ -1,13 +1,16 @@
 import React from 'react'
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
-import avatar from '../img/avatar.jpg';
+import avatar from '../img/spacensorcery.jpg';
 
 function Navigation() {
     return (
         <NavigationStyled>
             <div className="avatar">
-                <img src={avatar} alt=""/>
+                    <a href="https://space-n-sorcery-blog.vercel.app/">
+                <img src={avatar} alt="Logo.jpg"/>
+
+                    </a>
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
@@ -30,7 +33,7 @@ function Navigation() {
                 </li>
             </ul>
             <footer className="footer">
-                <p>@2021 <b>Lorem Ipsum</b></p>
+                <p>@2022 <b>SpaceNSorcery</b></p>
             </footer>
         </NavigationStyled>
     )
@@ -50,8 +53,9 @@ const NavigationStyled = styled.nav`
         text-align: center;
         padding: 1rem 0;
         img{
-            width: 70%;
-            border-radius: 50%;
+            width:70%;
+            height: 95%;
+            border-radius: 35%;
             border: 8px solid var(--border-color);
         }
     }

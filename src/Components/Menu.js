@@ -1,7 +1,9 @@
 import React from 'react'
 import styled from 'styled-components';
 import GitHub from '@material-ui/icons/GitHub';
-import Pinterest from '@material-ui/icons/Pinterest';
+import Code from '@material-ui/icons/Code';
+
+
 
 function Menu({menuItem}) {
     return (
@@ -17,10 +19,18 @@ function Menu({menuItem}) {
                                         <a href={item.link1}>
                                             <GitHub />
                                         </a>
+                                        <a href={item.link2}>
+                                           
+                                        </a>
                                     </li>
                                     <li>
+                                        <a href={item.link1}>
+                                       
+                                            
+
+                                        </a>
                                         <a href={item.link2}>
-                                            <Pinterest />
+                                        <Code />
                                         </a>
                                     </li>
                                 </ul>
@@ -133,8 +143,8 @@ const MenuItemStyled = styled.div`
                 &::before{
                     height: calc(100% - 32%) ;
                     width: calc(100% - 4%);
-                    background-color: white;
-                    opacity: 0.9;
+                    background-color: #D02DDB;
+                    opacity: 0.7;
                     transform-origin: left;
                     
                     transition: all .4s ease-in-out;

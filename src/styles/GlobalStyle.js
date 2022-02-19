@@ -23,14 +23,14 @@ const GlobalStyle = createGlobalStyle`
 } */
 
 .light-theme{
-    --primary-color: #007bff;
+    --primary-color: #DA2778;
     --primary-color-light: #057FFF;
     --secondary-color: #ff7675;
     --background-dark-color: #F1F1F1;
     --background-dark-grey: #e4e4e4;
     --border-color: #cbced8;
     --background-light-color: #F1F1F1;
-    --background-light-color-2: rgba(3,127,255,.3);
+    --background-light-color-2: #8523AD;
     --white-color: #151515;
     --font-light-color: #313131;
     --font-dark-color: #313131;
@@ -41,14 +41,14 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-track-color: #383838;
 }
 .dark-theme{
-    --primary-color: #007bff;
+    --primary-color: #DA2778;
     --primary-color-light: #057FFF;
     --secondary-color: #6c757d;
     --background-dark-color: #10121A;
     --background-dark-grey: #191D2B;
     --border-color: #2e344e;
     --background-light-color: #F1F1F1;
-    --background-light-color-2: rgba(3,127,255,.3);
+    --background-light-color-2: #8523AD;
     --white-color: #FFF;
     --font-light-color: #a4acc4;
     --font-dark-color: #313131;
@@ -88,6 +88,28 @@ body::-webkit-scrollbar-track{
     border-radius: 10px;
     background-color: #383838;
 }
+text-animation {
+    font-family: "Roboto", sans-serif;
+    padding: 3em 2em;
+    font-size: 5px;
+    background: #222;
+    color: #aaa;
+  }
+text-blinker {
+    border-right: 0.15em solid orange;
+    animation: blink 0.75s step-end infinite;
+    width: max-content;
+  }
+
+  @keyframes blink {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: blueviolet;
+    }
+  }
 
 textarea{
     max-width: 100%;

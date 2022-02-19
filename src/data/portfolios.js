@@ -3,71 +3,37 @@ import css2 from '../img/portImages/ms.png';
 import react1 from '../img/portImages/react_styled.png';
 import img2 from '../img/portImages/maya-4.jpg';
 import img3 from '../img/portImages/maya-3.jpg';
+import Blog from '../img/portImages/Blog.jpg';
+import diary from '../img/portImages/diary.jpg';
 
 const portfolios = [
     {
+        id: 3, 
+        category: 'React JS',
+        image: Blog,
+        link1: 'https://github.com/SpaceNSorcery/space-n-sorcery_blog', // git link
+        link2: 'https://space-n-sorcery-blog.vercel.app/', // project link if available
+        title: 'spacensorcery.blog',
+        text: 'Geek culture web dev blog made using Next JS, Tailwind CSS, and GraphQL Query API',
+    },
+    {
         id: 1,
-        category: 'CSS',
-        image: css1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Resume',
-        text: 'Created with only HTML and CSS.'
+        category: 'Javascript',
+        image: diary,
+        link1: 'https://github.com/SpaceNSorcery/Web-Diary',
+        link2: 'https://spacensorcery.github.io/Web-Diary/', 
+        title: 'Web Journal',
+        text: 'A web diary made with HTML/CSS and Javascript'
     },
     {
         id: 2,
-        category: 'Python',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
-    },
-    {
-        id: 3,
-        category: 'Javascript',
-        image: img3,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Animate In Maya',
-        text: 'Number one Animation Application'
-    },
-    {
-        id: 4,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
-    {
-        id: 5,
-        category: 'Animation',
-        image: img2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'How To Use Blender',
-        text: 'Free Animation Software'
-    },
-    {
-        id: 6,
-        category: 'React JS',
-        image: react1,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Responsive Portfolio Website',
-        text: 'Created using different technologies such as Material UI, Styled-Components and more...'
-    },
-    {
-        id: 7,
-        category: 'CSS',
+        category: 'Javascript', 
         image: css2,
-        link1: 'https://www.google.com',
-        link2: 'https://www.google.com',
-        title: 'Microsoft Website Clone',
-        text: 'Created using HTML and CSS'
-    }
+        link1: '', // git link 
+        link2: '', 
+        title: 'Financial Expense Tracker',
+        text: '| JavaScript | HTML/CSS |',
+    },
 ]
 
 export default portfolios;

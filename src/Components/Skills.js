@@ -8,43 +8,43 @@ function Skills() {
     return (
         <SkillsStyled>
             
-                <Title title={'My Skills'} span={'my skills'} />
+                <Title title={'Experience'} span={'Experience'} />
                 <InnerLayout>
                     <div className="skills">
                         <ProgressBar 
                             title={'HTML5'}
-                            width={'70%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'CSS3'}
                             width={'90%'}
                             text={'90%'}
                         />
                         <ProgressBar 
-                            title={'JAVASCRIPT'}
+                            title={'React JS'}
                             width={'85%'}
                             text={'85%'}
                         />
                         <ProgressBar 
-                            title={'JAVA'}
-                            width={'60%'}
-                            text={'60%'}
+                            title={'JAVASCRIPT'}
+                            width={'80%'}
+                            text={'80%'}
+                        />
+                        <ProgressBar 
+                            title={'CSS3'}
+                            width={'70%'}
+                            text={'70%'}
+                        />
+                        <ProgressBar 
+                            title={'PHP'}
+                            width={'30%'}
+                            text={'30%'}
                         />
                         <ProgressBar 
                             title={'PYTHON'}
-                            width={'95%'}
-                            text={'95%'}
+                            width={'30%'}
+                            text={'30%'}
                         />
                         <ProgressBar 
-                            title={'React JS'}
-                            width={'75%'}
-                            text={'75%'}
-                        />
-                        <ProgressBar 
-                            title={'UNITY'}
-                            width={'75%'}
-                            text={'75%'}
+                            title={'WordPress'}
+                            width={'20%'}
+                            text={'20%'}
                         />
                     </div>
                 </InnerLayout>

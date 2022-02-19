@@ -8,7 +8,7 @@ function BlogsPage() {
     return (
         <MainLayout>
             <BlogsStyled>
-            <Title title={'Blogs'} span={'Blogs'} />
+            <Title title={'Blog'} span={'Blog'} />
                 <InnerLayout className={'blog'}>
                     {
                         blogs.map((blog)=>{
@@ -52,9 +52,11 @@ const BlogsStyled = styled.div`
                 height: 90%;
                 object-fit: cover;
                 transition: all .4s ease-in-out;
+                filter: blur(3px);
                 &:hover{
                     cursor: pointer;
-                    transform: rotate(3deg) scale(1.1);
+                    transform: scale(1.1);
+                    filter: blur(0px)
                 }
             }
         }

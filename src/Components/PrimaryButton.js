@@ -3,11 +3,14 @@ import styled from 'styled-components';
 
 function PrimaryButton({title}) {
     return (
-        <PrimaryButtonStyled>
-            {title}
-        </PrimaryButtonStyled>
+        <PrimaryButtonStyled >
+            
+            <input type='submit' value={title} />
+
+        </PrimaryButtonStyled> 
     )
 }
+
 
 const PrimaryButtonStyled = styled.a`
     background-color: var(--primary-color);
@@ -33,5 +36,7 @@ const PrimaryButtonStyled = styled.a`
         width: 100%;
         background-color: var(--white-color);
     }
+  
+
 `;
 export default PrimaryButton;

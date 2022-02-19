@@ -3,32 +3,30 @@ import styled from 'styled-components';
 import {InnerLayout} from '../styles/Layouts';
 import Title from '../Components/Title';
 import ServiceCard from '../Components/ServiceCard';
-import design from '../img/design.svg';
-import intelligence from '../img/intelligence.svg';
-import gamedev from '../img/game-dev.svg';
+import design from '../img/../img/programming.png';
+import intelligence from '../img/writing.png';
+import gamedev from '../img/game.png';
 
 function ServicesSection() {
     return (
         <InnerLayout>
             <ServicesSectionStyled>
-                <Title title={'Services'} span={'services'} />
+                <Title title={'My Craft'} span={'My Craft'} />
                 <div className="services">
                     <ServiceCard 
                         image={design} 
                         title={'Web Design'} 
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        paragraph={'Designing functional, modern web applications using the MERN Stack.'}
                     />
-                    <div className="mid-card">
-                        <ServiceCard 
-                            image={intelligence} 
-                            title={'Artificial Intelligence'} 
-                            paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
-                        />
-                    </div>
                     <ServiceCard 
                         image={gamedev} 
-                        title={'Game Development'} 
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        title={'Geek Blogging'} 
+                        paragraph={'Articles centered around web development, geek culture / media, and project analysis.'}
+                    />
+                    <ServiceCard 
+                        image={intelligence} 
+                        title={'Multimedia Content'} 
+                        paragraph={'Writing with a focus on linguistics, armchair philosophy, & my incoherent inner ramblings.'}
                     />
                 </div>
             </ServicesSectionStyled>

@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components';
-import FacebookIcon from '@material-ui/icons/Facebook';
 import GithubIcon from '@material-ui/icons/GitHub';
 import YoutubeIcon from '@material-ui/icons/YouTube';
+import TwitterIcon from '@material-ui/icons/Twitter';
 import Particle from '../Components/Particle';
 
 function HomePage() {
@@ -12,20 +12,18 @@ function HomePage() {
                 <Particle />
             </div>
             <div className="typography">
-                <h1>Hi, I'm <span>Lorem Ipsum</span></h1>
+                <h1>Hey, I'm <span>Josh Goodman</span></h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Atque nihil voluptates ea dolore vel 
-                    repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
+                   I enjoy developing, designing, and debugging web apps! Specializing in modern <span>UI/UX design</span>, <span>CRUD/REST api web apps</span>, and working mainly using <span>MERN Stack</span>, I seek out new oportunities to test my mettle!
                 </p>
                 <div className="icons">
-                    <a href="https://codepen.io/pen/" className="icon i-facebook">
-                        <FacebookIcon />
+                    <a href="https://www.facebook.com/JoshGPilot" className="icon i-facebook">
+                        <TwitterIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-github">
+                    <a href="https://github.com/SpaceNSorcery" className="icon i-github">
                         <GithubIcon />
                     </a>
-                    <a href="https://codepen.io/pen/" className="icon i-youtube">
+                    <a href="https://www.youtube.com/channel/UCG5xEEbXduZjVl2pMGYBMxA/featured" className="icon i-youtube">
                         <YoutubeIcon />
                     </a>
                 </div>
