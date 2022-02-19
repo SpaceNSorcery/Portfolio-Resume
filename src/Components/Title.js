@@ -8,7 +8,7 @@ function Title({title, span}) {
         </TitleStyled>
     )
 }
-
+// 
 const TitleStyled = styled.div`
     position: relative;
     h2{
