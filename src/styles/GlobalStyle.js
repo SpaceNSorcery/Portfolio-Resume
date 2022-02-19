@@ -127,11 +127,11 @@ h1{
     span{
         font-size: 4rem;
         @media screen and (max-width: 502px){
-            font-size: 3rem
+            font-size: 3rem;
         }
     }
     @media screen and (max-width: 502px){
-        font-size: 3rem
+        font-size: 3rem;
     }
 }
 
