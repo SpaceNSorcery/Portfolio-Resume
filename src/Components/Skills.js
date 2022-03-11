@@ -8,46 +8,7 @@ function Skills() {
     return (
         <SkillsStyled>
             
-                <Title title={'Experience'} span={'Experience'} />
-                <InnerLayout>
-                    <div className="skills">
-                        <ProgressBar 
-                            title={'HTML5'}
-                            width={'90%'}
-                            text={'90%'}
-                        />
-                        <ProgressBar 
-                            title={'React JS'}
-                            width={'85%'}
-                            text={'85%'}
-                        />
-                        <ProgressBar 
-                            title={'JAVASCRIPT'}
-                            width={'80%'}
-                            text={'80%'}
-                        />
-                        <ProgressBar 
-                            title={'CSS3'}
-                            width={'70%'}
-                            text={'70%'}
-                        />
-                        <ProgressBar 
-                            title={'PHP'}
-                            width={'30%'}
-                            text={'30%'}
-                        />
-                        <ProgressBar 
-                            title={'PYTHON'}
-                            width={'30%'}
-                            text={'30%'}
-                        />
-                        <ProgressBar 
-                            title={'WordPress'}
-                            width={'20%'}
-                            text={'20%'}
-                        />
-                    </div>
-                </InnerLayout>
+            
         </SkillsStyled>
     )
 }

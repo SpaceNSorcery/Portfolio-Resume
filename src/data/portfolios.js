@@ -1,8 +1,4 @@
-import css1 from '../img/portImages/cv_css.png';
-import css2 from '../img/portImages/ms.png';
-import react1 from '../img/portImages/react_styled.png';
-import img2 from '../img/portImages/maya-4.jpg';
-import img3 from '../img/portImages/maya-3.jpg';
+import css2 from '../img/portImages/css2.jpg';
 import Blog from '../img/portImages/Blog.jpg';
 import diary from '../img/portImages/diary.jpg';
 
@@ -13,8 +9,8 @@ const portfolios = [
         image: Blog,
         link1: 'https://github.com/SpaceNSorcery/space-n-sorcery_blog', // git link
         link2: 'https://space-n-sorcery-blog.vercel.app/', // project link if available
-        title: 'spacensorcery.blog',
-        text: 'Geek culture web dev blog made using Next JS, Tailwind CSS, and GraphQL Query API',
+        title: 'Space n Sorcery',
+        text: 'A creative content and academic interest developer blog made using Next.JS, Tailwind.CSS, and the GraphCMS dataquery utility language, GraphQL',
     },
     {
         id: 1,
@@ -23,16 +19,15 @@ const portfolios = [
         link1: 'https://github.com/SpaceNSorcery/Web-Diary',
         link2: 'https://spacensorcery.github.io/Web-Diary/', 
         title: 'Web Journal',
-        text: 'A web diary made with HTML/CSS and Javascript'
+        text: 'A web diary made with HTML/CSS and Javascript. Some components were added from codepen.io'
     },
     {
         id: 2,
         category: 'Javascript', 
         image: css2,
-        link1: '', // git link 
-        link2: '', 
+        link1: 'https://github.com/SpaceNSorcery/Finance-Expense-Tracker', 
         title: 'Financial Expense Tracker',
-        text: '| JavaScript | HTML/CSS |',
+        text: 'A CRUD financial expense tracker. Made with Javascript, HTML & CSS',
     },
 ]
 

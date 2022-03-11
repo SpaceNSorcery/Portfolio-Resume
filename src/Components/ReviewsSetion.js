@@ -11,7 +11,7 @@ function ReviewsSetion() {
             <InnerLayout>
                 <div className="reviews">
                     <ReviewItem 
-                        text={"No feedback just yet! ( Though my dog gave me 🌟🌟🌟🌟🌟's! )"} 
+                        text={"Best belly-rubs on the block! 🌟🌟🌟🌟🌟's! ~ (JoJo's Dog) "} 
                     />
                     
                 </div>

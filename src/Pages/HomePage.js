@@ -12,9 +12,12 @@ function HomePage() {
                 <Particle />
             </div>
             <div className="typography">
-                <h1>Hey, I'm <span>Josh Goodman</span></h1>
+                <h1>Full-Stack Developer: <span>JoJo</span></h1>
+                <br />
+                <h4> also known as <span>Space Sensei</span>..</h4>
+                <br />
                 <p>
-                   I enjoy developing, designing, and debugging web apps! Specializing in modern <span>UI/UX design</span>, <span>CRUD/REST api web apps</span>, and working mainly using <span>MERN Stack</span>, I seek out new oportunities to test my mettle!
+                   ..proceeds on an everlasting quest to imagine, create, and inspire with web development! Currently specializing in bringing magically modern <span>MERN</span> stack apps to life! 
                 </p>
                 <div className="icons">
                     <a href="https://www.facebook.com/JoshGPilot" className="icon i-facebook">

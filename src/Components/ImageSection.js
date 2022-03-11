@@ -14,40 +14,30 @@ function ImageSection() {
       <div className="left-content"></div>
       <div className="right-content">
         <h4>
-          I'm <span>Josh Goodman</span>: <span class="wrap"></span>
+          <span>Josh Goodman</span>: <span class="wrap"></span>
           <p id="demo"></p>
         </h4>
-        <h5>(A.K.A. JoJo!)</h5>
 
         <p className="paragraph">
-          Even before writing my first <span>"Hello World!"</span> in
-          highschool, I always held an affinity for tech and language. Now at
-          23, I fully embrace the nerd within and teach myself to code full
-          time!
+          Curious, never satisfied, and always looking to grow as a developer, <span>JoJo</span> indefinetely seeks to satisfy his insatiable fixation with learning!
         </p>
         <div className="about-info">
           <div className="info-title">
-            <p>Full Name</p>
-            <p>Age</p>
-            <p>Nationality </p>
+            <p>Dev</p>
             <p>Languages</p>
             <p>Hobbies</p>
-            <p>Location</p>
             <p>Service</p>
           </div>
           <div className="info">
-            <p>: Joshua Goodman</p>
-            <p>: 23</p>
-            <p>: American </p>
+            <p>: Joshua Goodman (<span>"JoJo" </span>or <span>"Space Sensei"</span>)</p>
             <p>: English, Japanese </p>
-            <p>: Coding, Writing, Linguistics, Gaming</p>
-            <p>: Buffalo, New York </p>
-            <p>: Web Development (MERN Stack)</p>
+            <p>: Coding, Academic and Creative Writing, Linguistic Studies, Digital Art</p>
+            <p>: Web Development, Creative Writing</p>
           </div>
         </div>
         <div>
 
-            <a className='' href="https://www.youtube.com/">
+            <a className='' href="https://drive.google.com/file/d/10Sxl18Ax5JFONRyOO9uTSy5p2tW1PR8i/view?usp=sharing">
           <PrimaryButtonCV title={'CV Download'}/>
             </a>
       

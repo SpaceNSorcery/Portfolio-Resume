@@ -14,19 +14,19 @@ function ServicesSection() {
                 <Title title={'My Craft'} span={'My Craft'} />
                 <div className="services">
                     <ServiceCard 
-                        image={design} 
-                        title={'Web Design'} 
-                        paragraph={'Designing functional, modern web applications using the MERN Stack.'}
+                        image={design} y
+                        title={'Web Development'} 
+                        paragraph={'Adding flair and functionality to modern web applications using the MERN Stack. (MongoDB, Express.js, React.js, Node.js)'}
                     />
                     <ServiceCard 
                         image={gamedev} 
                         title={'Geek Blogging'} 
-                        paragraph={'Articles centered around web development, geek culture / media, and project analysis.'}
+                        paragraph={'Creatively written articles centered around geek culture, multimedia, internet phenomena, JoJos incoherent nerd rambling, and more!'}
                     />
                     <ServiceCard 
                         image={intelligence} 
-                        title={'Multimedia Content'} 
-                        paragraph={'Writing with a focus on linguistics, armchair philosophy, & my incoherent inner ramblings.'}
+                        title={'Online Academia'} 
+                        paragraph={'Academic content with a focus on developer insights, progress visualization, language learning, and armchair philosophy with Space Sensei.'}
                     />
                 </div>
             </ServicesSectionStyled>
