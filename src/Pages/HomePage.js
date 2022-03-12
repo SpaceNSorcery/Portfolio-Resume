@@ -17,7 +17,7 @@ function HomePage() {
                 <h4> also known as <span>Space Sensei</span>..</h4>
                 <br />
                 <p>
-                   ..proceeds on an everlasting quest to imagine, create, and inspire with web development! Currently specializing in bringing magically modern <span>MERN</span> stack apps to life! 
+                   ..proceeds on an everlasting quest to imagine, create, and inspire with web development! Currently specializing in bringing magically modern web apps to life! 
                 </p>
                 <div className="icons">
                     <a href="https://www.facebook.com/JoshGPilot" className="icon i-facebook">
