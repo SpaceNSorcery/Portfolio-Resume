@@ -16,7 +16,7 @@ function ServicesSection() {
                     <ServiceCard 
                         image={design} y
                         title={'Web Development'} 
-                        paragraph={'Adding flair and functionality to modern web applications using the MERN Stack. (MongoDB, Express.js, React.js, Node.js)'}
+                        paragraph={'Adding flair and functionality to modern web applications.'}
                     />
                     <ServiceCard 
                         image={gamedev} 
