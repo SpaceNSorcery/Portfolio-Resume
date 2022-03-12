@@ -16,7 +16,7 @@ function ServicesSection() {
                     <ServiceCard 
                         image={design} y
                         title={'Web Development'} 
-                        paragraph={'Adding flair and functionality to modern web applications.'}
+                        paragraph={'Adding front-end flair and back-end functionality to modern web applications.'}
                     />
                     <ServiceCard 
                         image={gamedev} 

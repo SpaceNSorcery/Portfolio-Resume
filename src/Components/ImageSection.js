@@ -32,7 +32,7 @@ function ImageSection() {
             <p>: Joshua Goodman (<span>"JoJo" </span>or <span>"Space Sensei"</span>)</p>
             <p>: English, Japanese </p>
             <p>: Coding, Academic and Creative Writing, Linguistic Studies, Digital Art</p>
-            <p>: Web Development, Creative Writing</p>
+            <p>: Full-Stack Web Application Development</p>
           </div>
         </div>
         <div>
