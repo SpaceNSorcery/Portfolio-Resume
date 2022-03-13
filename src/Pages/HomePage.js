@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components';
 import GithubIcon from '@material-ui/icons/GitHub';
 import YoutubeIcon from '@material-ui/icons/YouTube';
-import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Particle from '../Components/Particle';
 
 function HomePage() {
@@ -20,8 +20,8 @@ function HomePage() {
                    ..proceeds on an everlasting quest to imagine, create, and inspire with web development! Currently specializing in bringing magically modern web apps to life! 
                 </p>
                 <div className="icons">
-                    <a href="https://www.facebook.com/JoshGPilot" className="icon i-facebook">
-                        <TwitterIcon />
+                    <a href="linkedin.com/in/josh-goodman-4b4226208" className="icon i-facebook">
+                        <LinkedInIcon />
                     </a>
                     <a href="https://github.com/SpaceNSorcery" className="icon i-github">
                         <GithubIcon />
